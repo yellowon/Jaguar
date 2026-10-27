@@ -1,0 +1,47 @@
+# Local build outputs
+/build*/
+/releases/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.o
+*.a
+*.so
+*.so.*
+
+# Required prebuilt exact-ReLU backend
+!/exact/libjaguar_exact_v51.so
+
+# Generated inference files, including runtime keys
+/run_client/
+/run_cloud/
+/logs/
+
+# Local backups and preparation notes
+/pretrained_backup*/
+/models_backup*/
+/README_new.md
+/README_final.md
+/LICENSE_REVIEW.md
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+/.env
+/.env.*
+!/.env.example
+
+# Editor and OS temporary files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Embedded Git metadata from vendored checkouts
+**/.git
+
+# Keep README.md, LICENSE, credits/, deps/, models/, and pretrained/.
+# Prepared .inp files and model parameter .txt files are release assets.

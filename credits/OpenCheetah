@@ -1,0 +1,9 @@
+OpenCheetah upstream reference
+==============================
+
+Upstream repository:
+https://github.com/Alibaba-Gemini-Lab/OpenCheetah
+
+This Jaguar codebase vendors and adapts code paths derived from OpenCheetah,
+including the SCI and Cheetah-related components under `SCI/` and
+`include/gemini/cheetah/`.

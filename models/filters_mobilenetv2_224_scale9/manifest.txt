@@ -1,0 +1,6 @@
+layers=52
+fc_in_dim=1280
+fc_out_dim=1000
+tokens_total=3504872
+tokens_consumed=3504872
+tokens_left=0
